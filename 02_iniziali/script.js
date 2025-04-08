@@ -4,7 +4,7 @@ e restituisca nuovo un array con le iniziali di ogni parola dell'array fornito *
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
-function filterArray(array) {
+function firstCharArray(array) {
   const newArray = [];
   for (let i = 0; i < array.length; i++) {
     currentItem = array[i];
@@ -14,5 +14,5 @@ function filterArray(array) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(filterArray(names));
+console.log(firstCharArray(names));
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
